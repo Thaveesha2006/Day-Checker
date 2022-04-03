@@ -1,0 +1,76 @@
+package com.Thavee;
+
+import java.util.Scanner;
+
+public class Day{
+
+  public static void main(String[] args) {
+
+  Scanner input=new Scanner(System.in);
+
+  int value=input.nextInt();
+
+////Enter Your Favourite Number
+
+  
+
+  switch (value){
+
+    case 1:
+
+    System.out.println("Hi Bro,Today Is Monday");
+
+    break;
+
+    case 2:
+
+    System.out.println("Hi Bro,Today Is Tuesday");
+
+    break;
+
+    case 3:
+
+    System.out.println("Hi Bro,Today Is Wednesday");
+
+    break;
+
+    case 4:
+
+    System.out.println("Hi Bro,Today Is Thursday");
+
+    break;
+
+    case 5:
+
+    System.out.println("Hi Bro,Today Is Friday");
+
+    break;
+
+    case 6:
+
+    System.out.println("Hi Bro,Today Is Saturday");
+
+    break;
+
+    case 7:
+
+    System.out.println("Hi Bro,Today Is Sunday");
+
+    break;
+
+    default:
+
+    System.out.println("Error");
+
+    
+
+    
+
+  }
+
+   
+
+  }
+
+}
+
